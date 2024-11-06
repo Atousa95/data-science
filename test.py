@@ -18,7 +18,7 @@ from impl import AnnotationProcessor, MetadataProcessor, RelationalQueryProcesso
 from impl import CollectionProcessor, TriplestoreQueryProcessor
 from impl import GenericQueryProcessor
 from pandas import DataFrame
-from models.main_models import IdentifiableEntity, Canvas, Collection, Image, Annotation, Manifest, EntityWithMetadata
+from main_models import IdentifiableEntity, Canvas, Collection, Image, Annotation, Manifest, EntityWithMetadata
 
 
 # REMEMBER: before launching the tests, please run the Blazegraph instance!
