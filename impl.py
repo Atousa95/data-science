@@ -1,7 +1,7 @@
 import pandas as pd
 import pandas as pd
 import rdflib
-from models.main_models import *  # import the entirety of main_models
+from main_models import *  # import the entirety of main_models
 import sqlite3
 from sqlite3 import connect
 from pandas import read_sql, concat

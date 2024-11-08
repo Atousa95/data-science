@@ -5,7 +5,7 @@ from os import sep
 from impl import AnnotationProcessor, MetadataProcessor, RelationalQueryProcessor
 from impl import CollectionProcessor, TriplestoreQueryProcessor, GenericQueryProcessor
 from pandas import DataFrame
-from models.main_models import Canvas, Collection, Image, Annotation, Manifest, EntityWithMetadata
+from main_models import Canvas, Collection, Image, Annotation, Manifest, EntityWithMetadata
 
 # Before running these tests, ensure Blazegraph and other databases are set up.
 

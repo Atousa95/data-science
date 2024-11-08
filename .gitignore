@@ -263,3 +263,6 @@ poetry.toml
 myenv
 
 relational.db
+.vscode
+blazegraph.jar
+blazegraph.jnl
